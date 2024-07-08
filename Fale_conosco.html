@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+      <link rel="stylesheet" href="css/estilo.css"/>
+   <title> Fale Conosco </title>
+   <link rel="styleseet" href="css/button.css">
+</head>
+
+<body >
+
+   <header>
+      <nav>
+      <ul class="menu" style="cursor:pointer">
+         <li><a href="index.html"> Home</a></li>
+         <li><a href="receitas.html"> Receitas</a></li>
+         <li><a href="links.html"> Links</a></li>
+         <li><a href="imagen.html">Imagens</a></li>
+      </ul>
+      </nav>
+   </header>
+   
+<section>
+   <button class="uniube">
+      <a href="https://uniube.br/" target="_blank"> <img src="imagens/logo_uniube_127x38.png"></a>
+   </button>
+</section>
+
+<br>
+<form method="post" action="gmail.com">
+   <fieldset class="formulario">
+      <legend><b>Nome</b></legend>
+      <input type="texto=" placeholder="Nome completo" required>
+   </fieldset>
+
+   <fieldset class="formulario">
+      <legend><b>Sou</b></legend>
+         <input type="radio" name="sou" id="icliente" value="C"> <label for="icliente">Cliente</label>
+         <input type="radio" name="sou" id="iprestador" value="P"> <label for="iprestador">Prestador de servoços</label><br>
+   </fieldset>  
+
+   <fieldset class="formulario">
+      <legend><b>Estado</b></legend>
+      <select id="Estado" name="Estado">
+         <option value="Minas gerais">Minas gerais</option>
+         <option value="São Paulo"> São Paulo</option>
+         <option value="Rio de Janeiro">Rio de Janeiro</option>
+         <option value="Espirito Santo">Espirito Santo</option>
+         <option value="Mato grosso">Mato Grosso</option>
+         <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+         <option value="Pernambuco">Pernambuco</option>
+      </select>
+   </fieldset>
+
+   <fieldset class="formulario">
+      <legend><b>Quero</b></legend>
+         <input type="checkbox" name="duvidas" id="iduvidas"> <label for="iduvidas">Tirar duvidas</label><br>
+         <input type="checkbox" name="servicos" id="iservicos"> <label for="iservicos">Contratar serviços</label><br>
+         <input type="checkbox" name="outros" id="ioutros"><label for="ioutros"> Outros</label>
+      <br>
+   </fieldset>
+
+   <fieldset class="formulario">
+      <legend><b>Em que posso lhe ajudar</b></legend>
+      <textarea placeholder="Conte-nos mais sobre" rows="7" cols="50" required></textarea>
+   </fieldset>
+
+   <fieldset class="formulario">
+      <legend ><b>E-mail</b></legend>
+         <input type="text" placeholder="usuário" required><br>
+         <input type="password" placeholder="senha" required>
+   </fieldset>
+<br>
+<br>
+   <input type="submit" value="Enviar" class="enviar">
+</form>
+<br>
+   <a href="https://api.whatsapp.com/send?phone=5534988184935&text=Fala%20comigo,%20em%20que%20posso%20ajudar" target="_blank"> Mais informações pelo whatsapp</a>
+</body>
+</html>

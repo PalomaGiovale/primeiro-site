@@ -1,0 +1,62 @@
+
+    body{background-color: rgba(142, 207, 134, 0.219);}
+        
+        ul {list-style-type: none;
+            text-align: right;}
+        
+        a {text-decoration: none;}
+        a:link{color:rgb(4, 236, 4)}
+        a:visited{color:rgb(23, 163, 34)}
+        a:hover{color: rgb(3, 109, 9);}
+            
+            .enviar{background-color: rgb(241, 241, 241);
+                color: rgb(216, 73, 7);
+                border: 1px solid rgb(126, 0, 0);
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                background-color: rgb(204, 7, 0);
+                color: rgb(255, 255, 255);}
+            
+            .fale{background-color: rgb(241, 241, 241);
+                color: rgb(216, 73, 7);
+                border: 1px solid rgb(5, 5, 5);
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                background-color: rgb(2, 43, 2);
+                color: rgb(204, 9, 9);}
+            
+            .menu { display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                position: -webkit-sticky;
+                position: sticky;
+                color:rgb(235, 50, 4);}
+            
+            .formulario{background-color: rgba(142, 201, 160, 0.164);}
+            
+            .uniube{float:right;}
+        
+        h1 {color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 248%; 
+            letter-spacing: -5px;
+            text-shadow: 1px 2px black;}
+        
+        h3 {color: rgb(206, 57, 11);}
+        
+        p  {color: rgb(65, 37, 0);
+            text-indent: 30px;
+            text-align: justify;}
+        
+        
+        legend {color: rgb(14, 136, 40);}
+        
+        
+
+
+
+
